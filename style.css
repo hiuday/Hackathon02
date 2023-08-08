@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 50%;
+  border: 1px solid red;
+}
+/*trang 1*/
+.navbar {
+  background-image: url(./img/hero.jpg);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px;
+}
+
+.navbar-menu > li {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navbar-menu > li > a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-title {
+  margin: 50px;
+  color: white;
+}
+.footer > button {
+  background-color: rgb(18, 180, 209);
+  border-radius: 3px;
+  padding: 30px;
+}
+.footer {
+  margin-top: 300px;
+}
+/*trang 2*/
+.navbar2 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(212, 117, 9);
+}
+.navbar-body2 > img {
+  width: 40%;
+  float: right;
+}
+.navbar-body2 {
+  padding: 30px;
+  margin: 50px;
+}
+/* trang 3*/
+.navbar3 {
+  background-image: url(./img/anhnen3.jpg);
+  padding: 30px;
+  text-align: center;
+  height: 500px;
+}
+.navbar3 > h1 {
+  margin-top: 50px;
+}
+.img3 {
+  height: 10px;
+  margin-top: 100px;
+}
+/* trang 4*/
+.navbar4 {
+  width: 100%;
+}
+.navbar4 > .div4 {
+  padding: 20px 10px;
+  width: 40%;
+  display: inline-block;
+}
+.trydemo {
+  text-align: center;
+  height: 30px;
+  margin: 10px;
+  padding: 20px;
+}
+/*trang 5*/
+.navbar5 {
+  background-color: rgb(206, 147, 147);
+}
+
+/*trang 6*/
+.navbar6 {
+  background-color: rgb(98, 144, 230);
+  text-align: center;
+  
+}
